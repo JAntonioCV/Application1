@@ -18,13 +18,14 @@
             android:permission="com.jantonioc.application1.APPLICATION_PERMISSION"
             android:exported="true">
             <intent-filter>
-                <action android:name="com.jantonioc.application1"/>
+                <action android:name="com.jantonioc.application2"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
 
         <activity
             android:name=".MainActivity"
+            android:permission="com.jantonioc.application1.APPLICATION_PERMISSION"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
